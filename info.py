@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://instantearn.in/')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '0ce77ce31b9c932f836b2b13d8277a059378456b')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/A1_Backup/86')
